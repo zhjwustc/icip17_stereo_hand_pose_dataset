@@ -1,9 +1,9 @@
 This stereo hand pose tracking dataset is described in the paper:
 Jiawei Zhang, Jianbo Jiao, Mingliang Chen, Liangqiong Qu, Xiaobin Xu and Qingxiong Yang, "A hand pose tracking benchmark from stereo matching", icip 2017.
 
-You can download the dataset from: 
-Dropbox: https://www.dropbox.com/sh/ve1yoar9fwrusz0/AAAfu7Fo4NqUB7Dn9AiN8pCca?dl=0
-BaiduPan: https://pan.baidu.com/s/1qXBpBg4#list/path=%2F
+You can download the dataset from
+Dropbox: https://www.dropbox.com/sh/ve1yoar9fwrusz0/AAAfu7Fo4NqUB7Dn9AiN8pCca?dl=0 \n
+BaiduPan: https://pan.baidu.com/s/1qXBpBg4#list/path=%2F \n
 
 Our stereo hand pose benchmark contains sequences with 6 different backgrounds and every background has two sequences with counting and random poses. Every sequence has 1500 frames, so there are totally 18000 frames in our benchmark.
 Stereo and depth images were captured from a Point Grey Bumblebee2 stereo camera and an Intel Real Sense F200 active depth camera simultaneously.
