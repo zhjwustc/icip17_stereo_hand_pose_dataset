@@ -40,7 +40,7 @@ The sequence of 21 joints are: palm center(not wrist or hand center), little_mcp
 
 
 --------------------------------------------------------------
-Someone asks about how to project the point cloud into color and depth images for Intel Real Sense F200 active depth camera. You can use the following script:
+Someone asks about how to project the point cloud into color and depth images for Intel Real Sense F200 active depth camera. You can use the following MATLAB script:
 
 function [depthIJK, depthXYZ, colorIJK, colorXYZ] = positionCalc(depthPosition, depthIm)
     colorKmat = [607.92271, 0, 314.78337; 0, 607.88192, 236.42484; 0, 0, 1];
@@ -48,7 +48,6 @@ function [depthIJK, depthXYZ, colorIJK, colorXYZ] = positionCalc(depthPosition, 
     stereoOm = [0.00531   -0.01196  0.00301];
     stereoT = [-24.0381   -0.4563   -1.2326];
     stereoR = rodrigues(stereoOm);
-    
     depthIJK(1:2) = depthPosition;
     depthIJK(3) = 1;
     depthIJK = depthIJK';
