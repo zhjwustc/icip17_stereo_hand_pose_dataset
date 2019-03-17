@@ -38,8 +38,6 @@ Since the value of depth is usually larger than 255, we use 3 channels to store 
 All the labels are in folder '.\labels\'. The labels for Point Grey Bumblebee2 stereo camera and color/depth images for Intel Real Sense F200 active depth camera have suffix _BB and _SK respectively. For each mat file in this folder, it contains an array named 'handPara' with size 3*21*1500 which stores the 3D positions (x,y,z) in Millimeter of palm center and finger joints (totally 21 joints) of all 1500 the images in this sequence.
 The sequence of 21 joints are: palm center(not wrist or hand center), little_mcp, little_pip, little_dip, little_tip, ring_mcp, ring_pip, ring_dip, ring_tip, middle_mcp, middle_pip, middle_dip, middle_tip, index_mcp, index_pip, index_dip, index_tip, thumb_mcp, thumb_pip, thumb_dip, thumb_tip.
 
-If you have any questions, please send email to zhjw1988@gmail.com
-
 
 --------------------------------------------------------------
 Someone asks about how to project the point cloud into color and depth images for Intel Real Sense F200 active depth camera. You can use the following script:
