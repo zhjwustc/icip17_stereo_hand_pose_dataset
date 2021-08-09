@@ -3,9 +3,11 @@ Jiawei Zhang, Jianbo Jiao, Mingliang Chen, Liangqiong Qu, Xiaobin Xu and Qingxio
 
 You can download the dataset from
 
-Dropbox: https://www.dropbox.com/sh/ve1yoar9fwrusz0/AAAfu7Fo4NqUB7Dn9AiN8pCca?dl=0
+Dropbox: https://www.dropbox.com/sh/g13petlurikkivo/AACgwsoKsbtzMxX_e6bhH39Qa?dl=0
 
-BaiduPan: https://pan.baidu.com/s/1qXBpBg4#list/path=%2F
+BaiduPan: https://pan.baidu.com/s/12v1qMCB1wLAvYVRiU_CK3g#/ (code: 3w65)
+
+OneDrive: https://www.google.com/url?q=https%3A%2F%2Fportland-my.sharepoint.com%2F%3Af%3A%2Fg%2Fpersonal%2Fjiawzhang8-c_my_cityu_edu_hk%2FEkznohE3YL1Jk8igTCQ4HqYBg_9WJi9hWAetybea9o3iMQ%3Fe%3DkcbMmj&sa=D&sntz=1&usg=AFQjCNGxPD4n-BZYzVcEQ0mmFIwFCz7DaQ
 
 Our stereo hand pose benchmark contains sequences with 6 different backgrounds and every background has two sequences with counting and random poses. Every sequence has 1500 frames, so there are totally 18000 frames in our benchmark.
 Stereo and depth images were captured from a Point Grey Bumblebee2 stereo camera and an Intel Real Sense F200 active depth camera simultaneously.
